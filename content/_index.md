@@ -6,7 +6,7 @@ type: landing
 design:
   # Default section spacing
   spacing: "6rem"
-
+---
 sections:
   - block: hero
     content:
@@ -21,7 +21,7 @@ sections:
         url: "/blog/"
     design:
       css_class: "dark"
-      css_style: "h1 { color: navy !important; }"
+      css_style: "h1 { color: navy !important; } p { color: navy !important; }"
       background:
         color: "navy"
         image:
