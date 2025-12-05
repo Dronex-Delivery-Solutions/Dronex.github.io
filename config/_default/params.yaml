@@ -36,20 +36,27 @@ header:
     logo:
       text: ''
       # Logo filename in `assets/media/` folder
-      filename: 'logo.svg'
-    button:
-      enable: true
-      text: 'Get Started'
-      url: 'https://hugoblox.com/templates/'
+      filename: 'logo.png'
+    # button:
+    #   enable: true
+    #   text: 'Get Started'
+    #   url: 'https://hugoblox.com/templates/'
     show_search: true
     show_theme_chooser: true
+    show_mode_toggle: false
 
 # Site footer
 footer:
+  block: minimal
   copyright:
-    notice: '© {year} My Company'
+    notice: '© 2025 Dronex Delivery Solutions. This work is licensed under MIT'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
 
 # Localization
 locale:
-  date_format: 'Jan 2, 2006'
+  date_format: 'Dec 6, 2025'
   time_format: '3:04 PM'

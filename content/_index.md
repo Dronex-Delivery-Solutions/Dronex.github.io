@@ -1,6 +1,6 @@
 ---
 title: 'Home'
-date: 2023-10-24
+date: 2025-10-24
 type: landing
 
 design:
@@ -19,17 +19,9 @@ sections:
       secondary_action:
         text: Blogs
         url: "/blog/"
-      # announcement:
-      #   text: "Announcing the release of version 1."
-      #   link:
-      #     text: "Read more"
-      #     url: "/blog/"
     design:
-    #   spacing:
-    #     padding: [0, 0, 0, 0]
-    #     margin: [0, 0, 0, 0]
-      # For full-screen, add `min-h-screen` below
       css_class: "dark"
+      css_style: "h1 { color: navy !important; }"
       background:
         color: "navy"
         image:
@@ -40,27 +32,6 @@ sections:
           size: cover
           position: center
           parallax: false
-  # - block: stats
-  #   content:
-  #     items:
-  #       - statistic: "1M+"
-  #         description: |
-  #           Websites built  
-  #           with Hugo Blox
-  #       - statistic: "10k+"
-  #         description: |
-  #           GitHub stars  
-  #           since 2016
-  #       - statistic: "3k+"
-  #         description: |
-  #           Discord community  
-  #           for support
-  #   design:
-  #     # Section background color (CSS class)
-  #     css_class: "bg-gray-100 dark:bg-gray-900"
-  #     # Reduce spacing
-  #     spacing:
-  #       padding: ["1rem", 0, "1rem", 0]
   - block: features
     id: features
     content:
