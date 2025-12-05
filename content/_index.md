@@ -21,7 +21,7 @@ sections:
         url: "/blog/"
     design:
       css_class: "dark"
-      css_style: "h1 { color: navy !important; } p { color: navy !important; }"
+      css_style: "color: navy !important;"
       background:
         color: "navy"
         image:
