@@ -20,8 +20,6 @@ sections:
         text: Blogs
         url: "/blog/"
     design:
-      css_class: "dark"
-      css_style: "color: navy !important;"
       background:
         color: "navy"
         image:
