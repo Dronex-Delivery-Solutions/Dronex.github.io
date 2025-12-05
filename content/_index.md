@@ -111,30 +111,16 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: testimonials
-    content:
-      title: ""
-      text: ""
-      items:
-        - name: "Hugo Smith"
-          role: "Marketing Executive at X"
-          # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-1.jpg"
-          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
-    design:
-      spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
+  
   - block: cta-card
     content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+      title: Launch Your Autonomous Inventory Sprint
+      text: Map a 30-minute strategy session with our engineers—leave with a flight-ready checklist, ROI snapshot, and integration roadmap.
+      # button:
+      #   text: Book the Workshop
+      #   url: "mailto:you@example.com"
     design:
       card:
         # Card background color (CSS class)
         css_class: "bg-primary-300"
-        css_style: ""
----
+        css_style: "background: linear-gradient(120deg, #0b1f4d 0%, #1f7a8c 60%, #42c6ff 100%); color: #ffffff;"

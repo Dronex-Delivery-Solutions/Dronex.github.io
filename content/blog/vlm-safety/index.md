@@ -1,3 +1,4 @@
+---
 title: 🤖 Vision-Language Safety Pipeline for High-Mix Warehouses
 summary: Designing a VLM stack that spots unsafe interactions between humans, forklifts, and autonomous drones.
 date: 2023-10-24
