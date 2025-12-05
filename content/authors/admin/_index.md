@@ -3,7 +3,7 @@
 title: Amir Salar
 
 role: Computer Vision Researcher
-bio: A short summary for blog posts.
+summary: Applied AI researcher designing autonomous warehouse safety systems.
 interests:
   - Artificial Intelligence
   - Computational Linguistics
@@ -28,9 +28,9 @@ status:
 superuser: true
 
 # Organizations/Affiliations to show in About widget
-# organizations:
-#   - name: Stanford University
-#     url: https://www.stanford.edu/
+organizations:
+  - name: Bahcesehir University
+    url: https://bau.edu.tr/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -43,5 +43,5 @@ bio: My research interests include distributed robotics, mobile computing and pr
 highlight_name: true
 
 # Author's website URL
-website: ""
+website: "https://bau.edu.tr/"
 ---

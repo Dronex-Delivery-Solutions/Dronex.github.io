@@ -1,0 +1,53 @@
+:root {
+  --dronex-navy: #0b1f4d;
+  --dronex-teal: #1f7a8c;
+  --dronex-ice: #42c6ff;
+}
+
+/* Blog listing gradient that echoes the DroneX palette */
+body.blog-page #page-bg {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 15% 20%, rgba(66, 198, 255, 0.35), transparent 45%),
+    radial-gradient(circle at 85% 0%, rgba(31, 122, 140, 0.35), transparent 55%),
+    linear-gradient(135deg, var(--dronex-navy) 0%, #132f5f 35%, var(--dronex-teal) 70%, var(--dronex-ice) 100%);
+  opacity: 1;
+  z-index: -1;
+}
+
+body.blog-page {
+  background-color: transparent;
+}
+
+body.blog-page .page-header,
+body.blog-page .page-footer {
+  background-color: transparent;
+}
+
+body.blog-page .page-body {
+  background-color: transparent;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+body.blog-page .group {
+  background: rgba(4, 11, 42, 0.6);
+  border: 1px solid rgba(66, 198, 255, 0.25);
+  box-shadow: 0 25px 60px rgba(6, 20, 52, 0.45);
+}
+
+body.blog-page .group h3 a,
+body.blog-page .group p,
+body.blog-page .group time,
+body.blog-page .group span,
+body.blog-page .group a {
+  color: #f0f6ff;
+}
+
+body.blog-page .group a {
+  color: var(--dronex-ice);
+}
+
+body.blog-page .group a:hover {
+  color: #8fe8ff;
+}
