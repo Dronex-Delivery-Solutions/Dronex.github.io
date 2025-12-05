@@ -6,7 +6,7 @@ type: landing
 design:
   # Default section spacing
   spacing: "6rem"
----
+
 sections:
   - block: hero
     content:
@@ -124,3 +124,5 @@ sections:
         # Card background color (CSS class)
         css_class: "bg-primary-300"
         css_style: "background: linear-gradient(120deg, #0b1f4d 0%, #1f7a8c 60%, #42c6ff 100%); color: #ffffff;"
+
+---
