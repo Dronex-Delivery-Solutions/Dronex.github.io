@@ -1,6 +1,6 @@
 ---
 title: 'Home'
-date: 2025-10-24
+date: 2026-01-17
 type: landing
 
 design:
@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: Redefining Efficiency in the Age of Warehouse Automation 
-      text: 🧱 Powered by DroneX  🧱
+      text:  Powered by DroneX  
       primary_action:
         text: Reviews
         url: https://hugoblox.com/templates/
@@ -30,6 +30,31 @@ sections:
           size: cover
           position: center
           parallax: false
+
+  - block: About
+    content:
+      title: About DroneX
+      text:  DroneX is building the next generation of autonomous aerial logistics. We develop intelligent drone systems designed to deliver goods quickly, safely, and cost-effectively — especially in dense urban environments where traditional delivery methods struggle.
+      We focus on practical, deployable solutions — from autonomous navigation and swarm coordination to cloud-based fleet operations. Whether serving e-commerce platforms, local businesses, or logistics providers, DroneX aims to make aerial delivery a viable, everyday service.
+      primary_action:
+        text: Reviews
+        url: https://hugoblox.com/templates/
+        icon: rocket-launch
+      secondary_action:
+        text: Blogs
+        url: "/blog/"
+        icon: /hero/academic-cap
+    design:
+      background:
+        color: "navy"     
+  - block: markdown
+    content:
+      title: DroneX in Action
+      text: See our autonomous fleet in action
+    design:
+      background:
+        video:
+          filename: uav-fast.mp4
   - block: features
     id: features
     content:
@@ -54,73 +79,46 @@ sections:
         - name: Scalable Solution
           icon: rectangle-group
           description: From single warehouse to multi-site operations - scale effortlessly as your business grows!
-  - block: cta-image-paragraph
-    id: solutions
+  - block: markdown
     content:
-      items:
-        - title: Safety and Compliance Auditing
-          text: Automated compliance checks without disrupting operations
-          feature_icon: check
-          features:
-            - "Continuous safety monitoring across all aisles"
-            - "Automated detection of hazards and violations"
-            - "Instant reporting and compliance documentation"
-          # Upload image to `assets/media/` and reference the filename here
-          image: digital_twin.png
-          button:
-            text: Learn More
-            url: /blog/
-        - title: Shelf Utilization Optimization
-          text: Maximize storage capacity with intelligent space analytics
-          feature_icon: bolt
-          features:
-            - "Real-time shelf occupancy mapping"
-            - "AI-driven space optimization recommendations"
-            - "Identify underutilized storage areas instantly"
-          # Upload image to `assets/media/` and reference the filename here
-          image: coffee.jpg
-          button:
-            text: View Case Study
-            url: /blog/
-        - title: Night Shift Efficiency
-          text: 24/7 autonomous inventory operations without human intervention
-          feature_icon: check
-          features:
-            - "Unmanned inventory counts during off-hours"
-            - "Reduced labor costs and overtime expenses"
-            - "Fresh inventory data ready at shift start"
-          # Upload image to `assets/media/` and reference the filename here
-          image: digital_twin.png
-          button:
-            text: Explore Solution
-            url: /blog/
-        - title: Missing Inventory Tracking
-          text: Locate misplaced items quickly and reduce inventory shrinkage
-          feature_icon: bolt
-          features:
-            - "Rapid location scanning and verification"
-            - "Pattern detection for common misplacement areas"
-            - "Reduce search time from hours to minutes"
-          # Upload image to `assets/media/` and reference the filename here
-          image: coffee.jpg
-          button:
-            text: See Results
-            url: /blog/
+      title: ""
+      text: |
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 3rem; padding: 4rem 2rem;">
+          <div>
+            <h3 style="color: #42c6ff; margin-bottom: 1.5rem; font-size: 1.1rem; font-weight: 600;">Quick Links</h3>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+              <li style="margin-bottom: 0.75rem;"><a href="/" style="color: #ffffff; text-decoration: none; transition: color 0.3s;">Home</a></li>
+              <li style="margin-bottom: 0.75rem;"><a href="/solutions/" style="color: #ffffff; text-decoration: none; transition: color 0.3s;">Solutions</a></li>
+              <li style="margin-bottom: 0.75rem;"><a href="/blog/" style="color: #ffffff; text-decoration: none; transition: color 0.3s;">Blog</a></li>
+              <li><a href="#contact" style="color: #ffffff; text-decoration: none; transition: color 0.3s;">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 style="color: #42c6ff; margin-bottom: 1.5rem; font-size: 1.1rem; font-weight: 600;">Resources</h3>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+              <li style="margin-bottom: 0.75rem;"><a href="/blog/" style="color: #ffffff; text-decoration: none; transition: color 0.3s;">Documentation</a></li>
+              <li style="margin-bottom: 0.75rem;"><a href="/blog/" style="color: #ffffff; text-decoration: none; transition: color 0.3s;">Case Studies</a></li>
+              <li style="margin-bottom: 0.75rem;"><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s;">API Reference</a></li>
+              <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s;">Support</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 style="color: #42c6ff; margin-bottom: 1.5rem; font-size: 1.1rem; font-weight: 600;">Legal</h3>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+              <li style="margin-bottom: 0.75rem;"><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s;">Privacy Policy</a></li>
+              <li style="margin-bottom: 0.75rem;"><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s;">Terms of Service</a></li>
+              <li style="margin-bottom: 0.75rem;"><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s;">Cookie Policy</a></li>
+              <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s;">Compliance</a></li>
+            </ul>
+          </div>
+        </div>
+        <div style="border-top: 1px solid rgba(66, 198, 255, 0.3); margin-top: 3rem; padding-top: 2rem; text-align: center; color: rgba(255, 255, 255, 0.8); font-size: 0.9rem;">
+          <p style="margin: 0;">© Copyright 2026, DroneX. All Rights Reserved | <a href="#" style="color: #42c6ff; text-decoration: none;">Privacy</a> | <a href="#" style="color: #42c6ff; text-decoration: none;">Terms</a></p>
+        </div>
     design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-  
-  - block: cta-card
-    content:
-      title: Launch Your Autonomous Inventory Sprint
-      text: Map a 30-minute strategy session with our engineers—leave with a flight-ready checklist, ROI snapshot, and integration roadmap.
-      # button:
-      #   text: Book the Workshop
-      #   url: "mailto:you@example.com"
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-300"
-        css_style: "background: linear-gradient(120deg, #0b1f4d 0%, #1f7a8c 60%, #42c6ff 100%); color: #ffffff;"
+      background:
+        color: "#0b1f4d"
+      spacing:
+        padding: ["2rem", "0", "2rem", "0"]
 
 ---
