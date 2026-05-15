@@ -31,7 +31,7 @@ sections:
           position: center
           parallax: false
 
-  - block: About
+  - block: about
     content:
       title: About DroneX
       text: |

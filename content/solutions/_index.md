@@ -34,6 +34,7 @@ sections:
           button:
             text: Request Demo
             url: "mailto:hello@dronex.dev"
+          image: digital_twin.png
         - title: See Through the Obscured with AI That Reads What Humans Miss
           text: Accurately identify items even when product codes are damaged, obscured, pallet wrapped, or only partially visible.
           feature_icon: check
