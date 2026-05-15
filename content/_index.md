@@ -31,20 +31,14 @@ sections:
           position: center
           parallax: false
 
-  - block: about
+  - block: markdown
     content:
       title: About DroneX
       text: |
         DroneX is building the next generation of autonomous aerial logistics. We develop intelligent drone systems designed to deliver goods quickly, safely, and cost-effectively — especially in dense urban environments where traditional delivery methods struggle.
         We focus on practical, deployable solutions — from autonomous navigation and swarm coordination to cloud-based fleet operations. Whether serving e-commerce platforms, local businesses, or logistics providers, DroneX aims to make aerial delivery a viable, everyday service.
-      primary_action:
-        text: Reviews
-        url: https://hugoblox.com/templates/
-        icon: rocket-launch
-      secondary_action:
-        text: Blogs
-        url: "/blog/"
-        icon: /hero/academic-cap
+        
+        [Reviews](https://hugoblox.com/templates/) | [Blogs](/blog/)
     design:
       background:
         color: "navy"     
