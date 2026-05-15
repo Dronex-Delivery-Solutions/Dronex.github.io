@@ -21,3 +21,6 @@ main:
   - parent: Resources
     name: Blogs
     url: blog/
+  - name: News
+    url: /news/
+    weight: 35
