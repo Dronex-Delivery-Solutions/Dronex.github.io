@@ -77,6 +77,23 @@ sections:
         - name: Scalable Solution
           icon: rectangle-group
           description: From single warehouse to multi-site operations - scale effortlessly as your business grows!
+  - block: cta-image-paragraph
+    id: solutions
+    content:
+      items:
+        - title: Physical AI Compliance That Works While You Work
+          text: Build a living digital twin of warehouse activity and automate compliance checks without slowing operations.
+          feature_icon: check
+          features:
+            - "Digital twin logic maps aisle behavior, dwell time, and risk zones in real time"
+            - "Continuous monitoring with zero operational downtime"
+            - "Real-time violation detection with instant, actionable alerts"
+          button:
+            text: View All Solutions
+            url: "/solutions/"
+          image: digital_twin.png
+    design:
+      css_class: "bg-gray-100 dark:bg-gray-900"
   - block: markdown
     content:
       title: ""
