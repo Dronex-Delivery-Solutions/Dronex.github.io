@@ -13,11 +13,11 @@ sections:
       title: Redefining Efficiency in the Age of Warehouse Automation 
       text:  Powered by DroneX  
       primary_action:
-        text: Reviews
-        url: https://hugoblox.com/templates/
+        text: Explore Solutions
+        url: "/solutions/"
         icon: rocket-launch
       secondary_action:
-        text: Blogs
+        text: Blog
         url: "/blog/"
     design:
       background:
@@ -31,25 +31,28 @@ sections:
           position: center
           parallax: false
 
-  - block: markdown
+  - block: cta-image-paragraph
+    id: about
     content:
-      title: About DroneX
-      text: |
-        DroneX is building the next generation of autonomous aerial logistics. We develop intelligent drone systems designed to deliver goods quickly, safely, and cost-effectively — especially in dense urban environments where traditional delivery methods struggle.
-        We focus on practical, deployable solutions — from autonomous navigation and swarm coordination to cloud-based fleet operations. Whether serving e-commerce platforms, local businesses, or logistics providers, DroneX aims to make aerial delivery a viable, everyday service.
-        
-        [Reviews](https://hugoblox.com/templates/) | [Blogs](/blog/)
+      items:
+        - title: About DroneX
+          text: |
+            DroneX is building the next generation of autonomous aerial logistics. We develop intelligent drone systems designed to deliver goods quickly, safely, and cost-effectively — especially in dense urban environments where traditional delivery methods struggle.
+            
+            We focus on practical, deployable solutions — from autonomous navigation and swarm coordination to cloud-based fleet operations. Whether serving e-commerce platforms, local businesses, or logistics providers, DroneX aims to make aerial delivery a viable, everyday service.
+          feature_icon: check
+          features:
+            - "Autonomous navigation and flight planning"
+            - "Real-time fleet coordination and monitoring"
+            - "Cloud-based operations and analytics"
+          image: UAV_design.jpg
+          button:
+            text: Explore Solutions
+            url: /solutions/
     design:
       background:
-        color: "navy"     
-  - block: markdown
-    content:
-      title: DroneX in Action
-      text: See our autonomous fleet in action
-    design:
-      background:
-        video:
-          filename: uav-fast.mp4
+        color: "#f5f7fa"
+      css_class: "dark:bg-gray-900"     
   - block: features
     id: features
     content:

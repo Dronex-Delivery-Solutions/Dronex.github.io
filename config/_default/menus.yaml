@@ -7,7 +7,7 @@ main:
     url: /#top
     weight: 10
   - name: About
-    url: /#About
+    url: /#about
     weight: 20
   - name: Features
     url: /#features
