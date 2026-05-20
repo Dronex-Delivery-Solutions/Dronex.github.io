@@ -29,7 +29,7 @@ A reliable twin is more than a 3D model. It needs operational fidelity:
 4. **Sensor realism.** Camera occlusions, lighting shifts, and RF interference are part of the operating truth.
 
 If you want a short visual on why this matters, this overview is a great starting
- {{< youtube https://youtu.be/gNgEjGPXEos?si=AlE5dzAPClj4wvtS >}}
+ {{< youtube "gNgEjGPXEos" >}}
 
 ## How Dronex applies digital twins
 

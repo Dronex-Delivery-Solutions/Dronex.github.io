@@ -8,4 +8,4 @@ bio: ""
 status:
   icon: "👩‍💻"
 schema: "hugoblox/author/v1"
-avatar: nexus.jpg
+avatar: /uploads/nexus.png
