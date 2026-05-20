@@ -1,7 +1,7 @@
 ---
 title: 🚁 Building a Reliable Preflight Checklist for ArduPilot Missions
 summary: Practical ArduPilot preflight workflow to keep warehouse drone sorties predictable.
-date: 2023-10-25
+date: 2025-10-25
 authors:
   - admin
 image:
