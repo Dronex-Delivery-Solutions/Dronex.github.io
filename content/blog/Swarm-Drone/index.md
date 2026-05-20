@@ -11,7 +11,7 @@ tags:
   - SITL
   - Gazebo
 image:
-  filename: swarm-hero.jpg
+  filename: swarm.png
   caption: "Swarm drones performing coordinated maneuvers (illustrative)"
 ---
 
