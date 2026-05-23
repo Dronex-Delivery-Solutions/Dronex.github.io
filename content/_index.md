@@ -1,100 +1,109 @@
 ---
-title: 'Home'
-date: 2026-01-17
-type: landing
-
+title: "Home"
+summary: ""
+date: "2026-01-17"
+type: "landing"
 design:
-  # Default section spacing
   spacing: "6rem"
-
 sections:
-  - block: hero
+  - block: "hero"
     content:
-      title: Redefining Efficiency in the Age of Warehouse Automation 
-      text:  Powered by DroneX  
+      title: "Redefining Efficiency in the Age of Warehouse Automation"
+      text: "Powered by DroneX"
       primary_action:
-        text: Explore Solutions
+        text: "Explore Solutions"
         url: "/solutions/"
-        icon: rocket-launch
+        icon: "rocket-launch"
       secondary_action:
-        text: Blog
+        text: "Blog"
         url: "/blog/"
     design:
       background:
         color: "navy"
         image:
-          # Add your image background to `assets/media/`.
-          filename: Background.png
+          filename: "Background.png"
           filters:
             brightness: 0.5
-          size: cover
-          position: center
+          size: "cover"
+          position: "center"
           parallax: false
-
-  - block: cta-image-paragraph
-    id: about
+    ce: "section-2e010377"
+    As: "section-954c71ed"
+  - block: "search-hero"
+    content:
+      search_placeholder: "Search for answers..."
+    ce: "section-5-search-hero"
+    As: "section-69db05f7"
+  - block: "cta-image-paragraph"
     content:
       items:
-        - title: About DroneX
+        - title: "About DroneX"
           text: |
             DroneX is building the next generation of autonomous aerial logistics. We develop intelligent drone systems designed to deliver goods quickly, safely, and cost-effectively — especially in dense urban environments where traditional delivery methods struggle.
-            
+
             We focus on practical, deployable solutions — from autonomous navigation and swarm coordination to cloud-based fleet operations. Whether serving e-commerce platforms, local businesses, or logistics providers, DroneX aims to make aerial delivery a viable, everyday service.
-          feature_icon: check
+          feature_icon: "check"
           features:
             - "Autonomous navigation and flight planning"
             - "Real-time fleet coordination and monitoring"
             - "Cloud-based operations and analytics"
-          image: UAV_design.jpg
+          image: "UAV_design.jpg"
           button:
-            text: Explore Solutions
-            url: /solutions/
+            text: "Explore Solutions"
+            url: "/solutions/"
     design:
       background:
         color: "#f5f7fa"
-      css_class: "dark:bg-gray-900"     
-  - block: features
-    id: features
+      css_class: "dark:bg-gray-900"
+    ce: "section-about"
+    id: "about"
+    As: "section-4647dcfd"
+  - block: "features"
     content:
-      title: Features
-      text: Revolutionize your warehouse operations with autonomous drone technology 🚁
+      title: "Features"
+      text: "Revolutionize your warehouse operations with autonomous drone technology 🚁"
       items:
-        - name: Real-Time Tracking
-          icon: magnifying-glass
-          description: Monitor inventory levels and drone locations in real-time with our advanced tracking system.
-        - name: Ultra-Fast Operations
-          icon: bolt
-          description: Complete inventory scans up to 10x faster than traditional methods with autonomous drone fleets.
-        - name: Easy Integration
-          icon: sparkles
-          description: Seamlessly integrate with your existing warehouse management system in hours, not weeks!
-        - name: AI-Powered Analytics
-          icon: code-bracket
-          description: Smart algorithms optimize flight paths and provide predictive insights for inventory management.
-        - name: Enterprise Ready
-          icon: star
-          description: Trusted by leading logistics companies for mission-critical warehouse operations.
-        - name: Scalable Solution
-          icon: rectangle-group
-          description: From single warehouse to multi-site operations - scale effortlessly as your business grows!
-  - block: cta-image-paragraph
-    id: solutions
+        - name: "Real-Time Tracking"
+          icon: "magnifying-glass"
+          description: "Monitor inventory levels and drone locations in real-time with our advanced tracking system."
+        - name: "Ultra-Fast Operations"
+          icon: "bolt"
+          description: "Complete inventory scans up to 10x faster than traditional methods with autonomous drone fleets."
+        - name: "Easy Integration"
+          icon: "sparkles"
+          description: "Seamlessly integrate with your existing warehouse management system in hours, not weeks!"
+        - name: "AI-Powered Analytics"
+          icon: "code-bracket"
+          description: "Smart algorithms optimize flight paths and provide predictive insights for inventory management."
+        - name: "Enterprise Ready"
+          icon: "star"
+          description: "Trusted by leading logistics companies for mission-critical warehouse operations."
+        - name: "Scalable Solution"
+          icon: "rectangle-group"
+          description: "From single warehouse to multi-site operations - scale effortlessly as your business grows!"
+    ce: "section-features"
+    id: "features"
+    As: "section-835d75b8"
+  - block: "cta-image-paragraph"
     content:
       items:
-        - title: Physical AI Compliance That Works While You Work
-          text: Build a living digital twin of warehouse activity and automate compliance checks without slowing operations.
-          feature_icon: check
+        - title: "Physical AI Compliance That Works While You Work"
+          text: "Build a living digital twin of warehouse activity and automate compliance checks without slowing operations."
+          feature_icon: "check"
           features:
             - "Digital twin logic maps aisle behavior, dwell time, and risk zones in real time"
             - "Continuous monitoring with zero operational downtime"
             - "Real-time violation detection with instant, actionable alerts"
           button:
-            text: View All Solutions
+            text: "View All Solutions"
             url: "/solutions/"
-          image: digital_twin.png
+          image: "digital_twin.png"
     design:
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: markdown
+    ce: "section-solutions"
+    id: "solutions"
+    As: "section-7da674b0"
+  - block: "markdown"
     content:
       title: ""
       text: |
@@ -134,6 +143,11 @@ sections:
       background:
         color: "#0b1f4d"
       spacing:
-        padding: ["2rem", "0", "2rem", "0"]
-
+        padding:
+          - "2rem"
+          - "0"
+          - "2rem"
+          - "0"
+    ce: "section-79a197c2"
+    As: "section-ccd683ad"
 ---

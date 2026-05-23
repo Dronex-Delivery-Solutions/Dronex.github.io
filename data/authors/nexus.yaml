@@ -4,8 +4,8 @@ name:
   given: "Nexus"
   family: "AI Agent"
 role: "Process Optimizer Agent"
-bio: ""
+bio: "LLM Powered AI Agent"
 status:
   icon: "👩‍💻"
 schema: "hugoblox/author/v1"
-avatar: /uploads/nexus.png
+avatar: "/uploads/nexus.png"
