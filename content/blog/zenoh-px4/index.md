@@ -1,10 +1,10 @@
 ---
 title: "Zenoh + PX4 v1.17: Low-latency middleware for constrained drones"
-summary: One-sentence takeaway for busy readers (also used in cards and SEO).
+summary: Zenoh reduces network overhead and gives lower-latency pub/sub for edge devices.
 date: 2026-05-23
 draft: true
 image:
-  caption: Credit or context (Markdown supported)
+  caption: 
 cover:
   image: zenoh-thumbnail.png
   position:
@@ -28,9 +28,8 @@ tags:
   - PX4
 content_meta:
   trending: false
-
+status: review
 ---
-
 This post summarizes why Zenoh is gaining traction as a low-latency, lightweight
 middleware option for constrained UAV platforms (PX4) and how `zenoh-pico` can
 bridge microcontrollers and ROS 2 in practice. It draws on the Zenoh project
@@ -48,7 +47,7 @@ documentation and reporting on Zenoh's design goals and early adoption.
   CPU/network overhead, enabling responsive teleop, offboard control, and
   tighter integration across heterogeneous networks.
 
-## What is Zenoh (short)
+## What is Zenoh
 
 Zenoh is a data-centric protocol and middleware family designed to "manage data
 at rest and in motion" while working across constrained devices and cloud

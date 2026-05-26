@@ -3,31 +3,32 @@
 #   The `weight` parameter defines the order that the links will appear in.
 
 main:
-  - name: Blogs
-    identifier: cf791767
-    url: blog/
-    weight: 10
+
   - name: Home
     identifier: b9324785
     url: /#top
-    weight: 20
+    weight: 10
   - name: About
     identifier: 73d7cb83
     url: /#about
-    weight: 30
+    weight: 20
   - name: Features
     identifier: 1c4c664f
     url: /#features
-    weight: 40
+    weight: 30
   - name: News
     identifier: 2f7a15f4
     url: /news/
-    weight: 50
+    weight: 40
   - name: Solutions
     identifier: e6684709
     url: /solutions
-    weight: 60
+    weight: 50
   - name: Resources
     identifier: 755a61ed
     url: ""
-    weight: 70
+    weight: 60
+    hasChildren: true
+  - parent: Resources
+    name: blog/
+    url: blog/
