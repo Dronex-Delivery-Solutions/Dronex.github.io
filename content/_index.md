@@ -20,6 +20,7 @@ sections:
     design:
       background:
         color: "navy"
+        text_color_light: true
         image:
           filename: "Background.png"
           filters:
@@ -29,11 +30,6 @@ sections:
           parallax: false
     ce: "section-2e010377"
     As: "section-954c71ed"
-  - block: "search-hero"
-    content:
-      search_placeholder: "Search for answers..."
-    ce: "section-5-search-hero"
-    As: "section-69db05f7"
   - block: "cta-image-paragraph"
     content:
       items:

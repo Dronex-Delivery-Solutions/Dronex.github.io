@@ -45,6 +45,11 @@ header:
     show_theme_chooser: true
     show_mode_toggle: false
 
+# HugoBlox reads this setting to keep the navigation available while scrolling.
+hugoblox:
+  header:
+    sticky: true
+
 # Site footer
 footer:
   block: minimal

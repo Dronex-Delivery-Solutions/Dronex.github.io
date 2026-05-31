@@ -24,11 +24,16 @@ main:
     identifier: e6684709
     url: /solutions
     weight: 50
+  - name: For Companies
+    identifier: 28fc72bd
+    url: /companies/
+    weight: 60
   - name: Resources
     identifier: 755a61ed
     url: ""
-    weight: 60
+    weight: 70
     hasChildren: true
-  - parent: Resources
-    name: blog/
-    url: blog/
+  - parent: 755a61ed
+    name: Blog
+    url: /blog/
+    weight: 10
